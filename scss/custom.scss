@@ -1,0 +1,77 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+$bg-red: rgba(203, 0, 27, 1);
+$bg-blue: rgba(132, 191, 225, 1);
+$bg-neon-green: rgba(179, 225, 64, 1);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: $bg-red;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5vh 3vh 5vh 3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-icon {
+  height: 32px;
+  max-height: 4vw;
+  width: auto;
+  filter: invert(100%);
+}
+
+h1 {
+  font-family: 'Black Ops One', cursive;
+  //pesquisar font responsiva
+}
+
+.carousel-item {
+  height: 80vh;
+  width: 100%;
+}
+
+#red {
+  background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-position: center center;
+  background-size: cover;  
+}
+
+#blue {
+  background-image: url(https://images.unsplash.com/photo-1605348532760-6753d2c43329?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-position: center center;
+  background-size: cover;  
+}
+
+#green {
+  background-image: url(https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+  background-position: center center;
+  background-size: cover;  
+}
+
+
+footer {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-top: 2px solid rgba(255, 255, 255, 0.25);
+}
